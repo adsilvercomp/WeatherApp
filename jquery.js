@@ -66,7 +66,7 @@ $(document).ready(function () {
         for(let i=1;i<weatherArr.length-2;i++){
        
             console.log(weatherArr[i].icon_url)
-            $("#weatherList").append("<li>" + "<h1>"+weatherArr[i].date.weekday + " " + weatherArr[i].date.month+  "/"+ weatherArr[i].date.day + "<br/>" + "High " + weatherArr[i].high.fahrenheit +"°F"+ "<br/>"  + "Low "+ weatherArr[i].low.fahrenheit + "°F"+ "</h1>"  + "<img src=" + weatherArr[i].icon_url  + ">" + "</li>")
+            $("#weatherList").append("<li>" + "<h1>"+weatherArr[i].date.weekday + " " + weatherArr[i].date.month+  "/"+ weatherArr[i].date.day + "<br/>" + "High " + weatherArr[i].high.fahrenheit +"°F"+ "<br/>"  + "Low "+ weatherArr[i].low.fahrenheit + "°F"+ "</h1>"  + "<img src=" + weatherArr[i].icon_url  + ">" + "<hr/>" + "</li>")
 
         }
        
