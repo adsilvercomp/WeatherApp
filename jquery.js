@@ -54,6 +54,9 @@ $(document).ready(function () {
             case "Overcast":
             $("#today").css('background-image', "url(https://media.giphy.com/media/TEvh9P0jAFbvW/giphy.gif)")
             break;
+            case "Mostly Cloudy":
+            $("#today").css('background-image', "url(https://media.giphy.com/media/TEvh9P0jAFbvW/giphy.gif)")
+            break;
             case "Partly Cloudy":
             $("#today").css('background-image', "url(https://media.giphy.com/media/l41lQIclE3lItAlfq/giphy.gif)")
             break;
